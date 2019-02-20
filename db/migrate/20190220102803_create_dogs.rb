@@ -1,6 +1,7 @@
 class CreateDogs < ActiveRecord::Migration
   def up
-    create_table Dogs
+    create_table :dogs do 
+      
   end
  
   def down
